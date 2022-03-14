@@ -8,7 +8,8 @@ int main(void)
 {
 	int b, c, d;
 	b = 0;
-	while (b < 10)
+
+	while (b < 100)
 	{
 		c = b % 10;
 		d = b / 10;
