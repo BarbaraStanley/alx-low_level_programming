@@ -7,7 +7,9 @@
 int main(void)
 {
 	int b, c, d;
+
 	b = 0;
+
 
 	while (b < 100)
 	{
