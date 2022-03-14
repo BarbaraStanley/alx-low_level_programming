@@ -2,11 +2,11 @@
 /**
  * main - entry point, prints all possible combinations of two digit numbers
  *
- * Retur: 0
+ * Return: 0
  */
 int main(void)
 {
-	int b,c,d;
+	int b, c, d;
 	b = 0;
 	while (b < 10)
 	{
