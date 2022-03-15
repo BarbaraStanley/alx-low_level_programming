@@ -3,7 +3,7 @@
 /**
  * _islower - function that checks for lowercase character
  *
- * @c - integer value to be recieved
+ * @c: integer value to be recieved
  * Return: 0
  */
 
