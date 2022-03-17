@@ -10,13 +10,13 @@ void more_numbers(void)
 {
 	int n = 0;
 
-	while (n <= 10)
+	while (n < 10)
 	{
 		char b;
 
 		for (b = 0; n <= 14; b++)
 		{
-			if (b > 9)
+			if (b >= 10)
 			{
 				_putchar((b / 10) + 48);
 			}
