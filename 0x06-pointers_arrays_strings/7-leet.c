@@ -19,8 +19,8 @@ char *leet(char *s)
 			{
 				s[indx1] = indx2 + '0';
 			}
-			indx1++;
 		}
+		indx1++;
 		return (s);
 	}
 }
