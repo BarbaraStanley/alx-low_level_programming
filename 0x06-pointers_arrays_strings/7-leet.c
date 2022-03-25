@@ -21,6 +21,6 @@ char *leet(char *s)
 			}
 		}
 		indx1++;
-		return (s);
 	}
+	return (s);
 }
