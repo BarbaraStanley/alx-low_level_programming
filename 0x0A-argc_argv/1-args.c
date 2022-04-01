@@ -18,7 +18,8 @@ int main(int argc, char *argv[])
 	else
 	{
 		for (b = 0; *argv; b++, argv++)
-			printf("%d\n", b - 1);
+			;
+		printf("%d\n", b - 1);
 	}
 	return (0);
 }
