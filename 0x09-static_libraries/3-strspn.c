@@ -1,3 +1,12 @@
 #include "main.h"
 
-unsigned int _strspn(char *s, char *accept);
+/**
+ * _strspn - empty function for now
+ * @s: null
+ * @accept: null
+ * Return: nothing yet
+ */
+unsigned int _strspn(char *s, char *accept)
+{
+
+}

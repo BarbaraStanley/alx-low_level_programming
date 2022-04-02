@@ -1,3 +1,12 @@
 #include "main.h"
 
-char *_strpbrk(char *s, char *accept);
+/**
+ * _strpbrk - empty function for now
+ * @s: null
+ * @accept: null
+ * Return: nothing yet
+ */
+
+char *_strpbrk(char *s, char *accept)
+{
+}
