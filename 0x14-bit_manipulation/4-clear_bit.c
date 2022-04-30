@@ -4,7 +4,7 @@
  * clear_bit - function that sets the value of a bit to 0 at a given index
  * @n: number given
  * @index: index starting from 0 of the bit you want to set
- * Returns: 1 if success, -1 if an error occured
+ * Return: 1 if success, or -1 if an error occured
  */
 
 int clear_bit(unsigned long int *n, unsigned int index)
