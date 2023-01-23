@@ -5,7 +5,7 @@ NAME = school
 RM = rm -f
 CFLAGS = -Wall -Werror -Wextra -pedantic
 
-all:
+all: $(OBJ)
 	$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
 
 clean:
@@ -14,8 +14,6 @@ clean:
 oclean:
 	$(RM) $(OBJ)
 
-fclean:
-	clean oclean
+fclean: clean oclean
 
-re:
-	oclean all
+re: oclean all
